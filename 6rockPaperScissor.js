@@ -92,8 +92,8 @@
     document.querySelector('.js-result').innerHTML=result;
 
     document.querySelector('.js-moves').innerHTML=`You
-  <img src="./${playerMove}.png" class="move-icon">
-  <img src="./${compMove}.png" class="move-icon">
+  <img src="./${playerMove.toLowerCase()}.png" class="move-icon">
+  <img src="./${compMove.toLowerCase()}.png" class="move-icon">
   Computer.`;
 
    /* alert(`You picked ${playerMove}. Computer picked ${compMove}. ${result}
@@ -120,3 +120,4 @@
     return compMove;
 
       }
+
